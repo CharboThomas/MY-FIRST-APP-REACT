@@ -1,0 +1,11 @@
+.boite{
+    margin:20px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px black solid;
+}
+
+a{
+    font-size: medium;
+    color: black;
+}

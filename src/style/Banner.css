@@ -1,0 +1,21 @@
+.photoStyle{
+    width: 250px;
+    height: 250px;
+}
+
+.box{
+    width: 100%;
+    margin-top : 25px;
+    margin-bottom: 25px;
+    border-bottom: 1px rgb(0,43,43) solid;
+}
+
+a{
+    color:white;
+    font-size: 30px;
+}
+
+a:hover{
+    color: rgb(143,33,66);
+}
+
