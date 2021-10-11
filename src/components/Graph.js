@@ -6,6 +6,7 @@ import '../style/Graph.css'
 function Graph({Data}){
 
     const listeData = Data;
+    console.log(listeData);
 
     const [data, setData] = useState({});
 
@@ -27,6 +28,7 @@ function Graph({Data}){
           });
     }, [])
 
+    console.log(data);
     return (
 
         <div className = "BoxGraph">

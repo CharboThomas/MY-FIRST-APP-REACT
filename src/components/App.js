@@ -1,7 +1,9 @@
-import '../App.css';
+import '../style/App.css';
 import Banner from './Banner'
 import Info from './Info'
 import Graph from './Graph'
+import Tableau from './Tableau'
+
 
 function App() {
   // second : I define the link of the target on a variable
@@ -13,7 +15,9 @@ function App() {
   // I send my requestion
   maRequest.send(null);
   // I capture the data generate by my request
-  const data = JSON.parse(maRequest.responseText);  
+  const data = JSON.parse(maRequest.responseText); 
+  
+  console.log(data.course);
 
   return (
     <div className="App">
@@ -24,6 +28,7 @@ function App() {
       
       <div className="boite2">
         <Info />
+        <Tableau Data = {data}/>
         <Graph Data = {data}/>
       </div>
 
