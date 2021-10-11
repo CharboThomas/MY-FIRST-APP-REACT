@@ -1,8 +1,40 @@
-# My First Web Page with REACT
+
+# My First App with REACT
+
+
+## Why I choose REACT ?
+During the last week, i tried to create Charts with charts libreary and vue-clie but I failled.
+I had a lot of problems with vue-cli synthax.
+In order to find a solution, I choose to change vue-cli by React.
+I followed this tutorial :
+https://openclassrooms.com/fr/courses/7008001-debutez-avec-react/7137561-tirez-le-maximum-de-ce-cours
+
+
+## My New web page :
 
 ![my new web page with REACT](src/assets/20211011_230241.jpg)
 
 
+## Picture
+
+You can find pictures on the folter called src/assets
+
+## Module
+
+I create modules in order to creat a modular code.
+You can find this module on the folter called src/components
+
+List of my modules :
+    - App.js => generate the base of my web page (it calls every modules)
+    - Banner.js => create the banner of my web page
+    - GraphBar.js => create a "bar" with charts libreary
+    - GraphPie.js => create a Pie with charts libreary
+    - Info.js => create a table with some link
+    - Tableau.js => create a table with the data of the amazon web site
+
+## CSS code :
+
+You can find the CSS code on the folter called src/style \
 
 # Getting Started with Create React App
 
