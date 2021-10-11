@@ -1,3 +1,9 @@
+# My First Web Page with REACT
+
+![my new web page with REACT](src/assets/20211011_230241.jpg)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
