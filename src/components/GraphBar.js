@@ -1,6 +1,4 @@
 import {Bar} from 'react-chartjs-2';
-import '../style/Graph.css'
-
 
 function GraphBar({Data}){
 

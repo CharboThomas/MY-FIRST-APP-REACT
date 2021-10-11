@@ -1,6 +1,4 @@
 import { Pie } from 'react-chartjs-2';
-import '../style/Graph.css'
-
 
 function GraphPie({Data}){
 
