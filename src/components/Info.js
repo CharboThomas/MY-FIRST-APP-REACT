@@ -6,7 +6,7 @@ function Info(){
     const Data = [
         {
             Nom: "GitHub",
-            Lien: "https://github.com/CharboThomas/TelecommunacationSoftware",
+            Lien: "https://github.com/CharboThomas/MY-FIRST-APP-REACT",
         },
         {
             Nom: "Slide",
@@ -16,30 +16,29 @@ function Info(){
             Nom: "Target",
             Lien: "https://4v9r83qfo4.execute-api.eu-central-1.amazonaws.com/dev",
         }
-
     ]
 
+
     return(    
-        <div class="boite">
 
-    <center>
+        <div className="InfoBox">
 
-        <ul>
-            <h2> Information : </h2>
+                <ul>
+                    <h2> Information : </h2>
 
-            <li> Creator : Thomas Charbonnet </li>
+                    <li className = "InfoListe" > Creator : Thomas Charbonnet </li>
 
-            {Data.map((info,index)=>(
-                <li key={`${info.Nom}-${index}`}> 
-                    {info.Nom} : <a href={info.Lien}>{info.Lien}</a>
-                </li>
-            ))}
+                    {Data.map((info,index)=>(
+                        <li className = "InfoListe" key={`${info.Nom}-${index}`}> 
+                            {info.Nom} : <a className = "InfoLien" href={info.Lien}>{info.Lien}</a>
+                        </li>
+                    ))}
 
-        </ul>
+                </ul>
 
-    </center>
-
-</div>)
+        </div>
+    
+    )
 }
 
 export default Info

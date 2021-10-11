@@ -3,19 +3,20 @@
     height: 250px;
 }
 
-.box{
+.boxBanner{
     width: 100%;
     margin-top : 25px;
     margin-bottom: 25px;
     border-bottom: 1px rgb(0,43,43) solid;
+
 }
 
-a{
+.lienBanner{
     color:white;
     font-size: 30px;
+    text-decoration: none;
 }
 
-a:hover{
+.lienBanner:hover{
     color: rgb(143,33,66);
 }
-

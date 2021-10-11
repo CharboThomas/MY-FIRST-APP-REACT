@@ -1,11 +1,29 @@
-.boite{
-    margin:20px;
+.InfoBox{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    width: 90%;
+
+    margin:20px;
+
     border-bottom: 1px black solid;
 }
 
-a{
-    font-size: medium;
+
+.InfoListe{
+    list-style: none;
+}
+
+
+.InfoLien{
     color: black;
+    font-size: medium;
+    text-decoration: none;
+}
+
+
+.InfoLien:hover{
+    color: rgb(143,33,66);
 }

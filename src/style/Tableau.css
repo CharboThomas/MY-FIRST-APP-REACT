@@ -1,18 +1,49 @@
-.zoneTitre{
-    border: 2px black solid;
+.TableBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+
+    margin:20px;
+    padding:20px;
+
+    border-bottom: 1px black solid;
+}
+
+.TableTitre{
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+
     width: 90%;
 }
 
-.zoneData{
-    border: 1px black solid;
-    width: 90%;
-
+.TableContenue{
     display: flex;
     flex-direction: row;
+
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-right: 2px black solid;
+    border-bottom: 2px black solid;
+
+    width: 90%;
 }
 
-.zoneDataBoite{
-    border: 1px black solid;
-    width: 50%
-    ;
+.TableContenueBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+
+    width: 50%;
+}
+
+.TableListe{
+    list-style: none;
 }
